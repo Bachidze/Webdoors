@@ -14,8 +14,9 @@ const Mainside = () => {
         <div className='hidden xl:flex justify-center mt-[120px]'>
             <img src="/assets/Cube.svg" alt="CubeImg" />
         </div>
-
-        <div className=' hidden xl:flex relative'>
+        
+        
+        <div className=' hidden xl:flex relative left-[50px]'>
             <img className='absolute left-[-150px] top-[400px]' src="/assets/SkyRectangle.svg" alt="SkyRectimg" />
             <img className='absolute left-[770px] top-[300px]' src="/assets/BrainDesktop.svg" alt="DesktopBrainimg" />
             <img className='absolute left-[692px] top-[470px]' src="/assets/DaxriliSky.svg" alt="DaxriliSkyRectimg" />
