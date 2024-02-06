@@ -16,7 +16,7 @@ const Mainside = () => {
         </div>
         
         
-        <div className=' hidden xl:flex relative left-[50px]'>
+        <div className=' hidden xl:flex relative xl:left-[50px]'>
             <img className='absolute left-[-150px] top-[400px]' src="/assets/SkyRectangle.svg" alt="SkyRectimg" />
             <img className='absolute left-[770px] top-[300px]' src="/assets/BrainDesktop.svg" alt="DesktopBrainimg" />
             <img className='absolute left-[692px] top-[470px]' src="/assets/DaxriliSky.svg" alt="DaxriliSkyRectimg" />
@@ -29,7 +29,7 @@ const Mainside = () => {
             <img className='absolute left-[770px] top-[1140px]' src="/assets/DesktopAim.svg" alt="DesktopAimImg" />
             <img className='absolute left-[689px] top-[1310px]' src="/assets/RedRect.svg" alt="DesktopRedRectImg" />
             <img className='absolute left-[510px] top-[1350px]' src="/assets/DesktopDeploy.svg" alt="DesktopRedDeploymentImg" />
-            <img className='absolute left-[700px] top-[1460px] -z-10 w-[900px]' src="/assets/MainRed.svg" alt="DesktopLastRedRect" />
+            <img className='absolute right-0 top-[1460px] -z-10 w-[900px]' src="/assets/MainRed.svg" alt="DesktopLastRedRect" />
         </div>
 
 
@@ -44,7 +44,7 @@ const Mainside = () => {
                     <div className='flex flex-col items-center relative xl:mb-[200px] xl:ml-[50px] xl:bottom-[100px] xl:left-[45px]'>
 
                         <h2 className='text-white font-bold text-[14px] mb-[12px] md:text-[18px] xl:self-start '><span className='text-[#68B4ff] font-bold '>01.</span> Analysis</h2>
-                        <p className='text-[12px] text-[#C1D7EC] font-medium  max-w-[240px] text-left md:text-[16px] xl:text-[18px] xl:max-w-[445px] xl:font-bold'>We work with our clients to gather the requirements,
+                        <p className='text-[12px] text-[#C1D7EC] font-medium  max-w-[240px] text-left md:text-[16px]  xl:max-w-[300px] xl:font-normal'>We work with our clients to gather the requirements,
                             use cases, process specifications and conduct in-depth
                             research on demographics, behavior patterns, and target
                             audiences to refine your idea and create a strong app foundation
@@ -84,7 +84,7 @@ const Mainside = () => {
                         </h2>
                     <p className='
                     text-[12px] text-[#C1D7EC] font-medium 
-                    max-w-[210px] text-left md:text-[16px] xl:text-[18px] xl:font-bold xl:max-w-[500px]'>
+                    max-w-[210px] text-left md:text-[16px]  xl:font-normal xl:max-w-[300px]'>
                     Our experienced UI/UX designers will 
                     create wireframes to visualize the client’s concept 
                     and ideas that clearly define the user journey
@@ -104,7 +104,7 @@ const Mainside = () => {
                             Prototyping
 
                             </h2>
-                        <p className='text-[12px] text-[#C1D7EC] font-medium  max-w-[270px] text-left md:text-[16px] xl:text-[18px] xl:font-bold xl:max-w-[450px]'>
+                        <p className='text-[12px] text-[#C1D7EC] font-medium  max-w-[270px] text-left md:text-[16px]  xl:font-normal xl:max-w-[300px]'>
                             We work with our clients to gather the requirements,
                             We lead the industry with best in class prototype 
                             design techniques that give you an earlier heads 
@@ -124,7 +124,7 @@ const Mainside = () => {
                             <span className='text-[#68B4ff] font-bold'>04.</span>
                             Design & code
                             </h2>
-                        <p className='text-[12px] text-[#C1D7EC] font-medium  max-w-[260px] text-left md:text-[16px] xl:text-[18px] xl:font-bold xl:max-w-[500px]'>
+                        <p className='text-[12px] text-[#C1D7EC] font-medium  max-w-[260px] text-left md:text-[16px]  xl:font-normal xl:max-w-[300px]'>
                             We work with our clients to gather the requirements,
                             We use Human Interface Guidelines and follow industry 
                             best practices during our design and coding process.
@@ -145,7 +145,7 @@ const Mainside = () => {
                             <span className='text-[#68B4ff] font-bold'>05.</span>
                             Testing & QA
                             </h2>
-                        <p className='text-[12px] text-[#C1D7EC] font-medium  max-w-[270px] text-left md:text-[16px] xl:text-[18px] xl:font-bold xl:max-w-[450px]'>
+                        <p className='text-[12px] text-[#C1D7EC] font-medium  max-w-[270px] text-left md:text-[16px]  xl:font-noraml xl:max-w-[300px]'>
                         We work with our clients to gather the requirements,
                         We rigorously test the performance app
                         performance to Industry standards to evaluate
@@ -163,7 +163,7 @@ const Mainside = () => {
                             <span className='text-[#68B4ff] font-bold'>06.</span>
                             Deployment
                             </h2>
-                        <p className='text-[12px] text-[#C1D7EC] font-medium  max-w-[264px] text-left md:text-[16px] xl:text-[18px] xl:font-bold xl:max-w-[500px]'>
+                        <p className='text-[12px] text-[#C1D7EC] font-medium  max-w-[264px] text-left md:text-[16px]  xl:font-noraml xl:max-w-[300px]'>
                         We work with our clients to gather the requirements,
                         Once the app fulfills our client’s requirements and 
                         expectations, we deploy the app according to the launch plan.
