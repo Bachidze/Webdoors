@@ -8,4 +8,5 @@
 body{
     font-family: Quicksand;
     background: linear-gradient(#292734 100%,#000000 100%);
+    overflow-x: hidden;
 }

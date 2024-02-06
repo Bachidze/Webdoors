@@ -16,3 +16,44 @@
     height: 10px;
     border: 2px solid white;
 }
+
+
+.ftbord2{
+    background: white;
+    border: 1px solid white;
+    width: 90%;
+}
+.ftbord3{
+    background: white;
+    border: 1px solid white;
+    width: 91%;
+}
+
+.word{
+    word-spacing: 20px;
+}
+
+.borderi{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #6561EA;
+    border-radius: 50%;
+}
+
+.wre{
+    border:2px solid white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.xazi{
+    background: white;
+    border: 1px solid white;
+    width: 270px;
+}
+
+.simagle{
+    height: 10px;
+    border: 2px solid white;
+}

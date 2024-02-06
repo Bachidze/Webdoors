@@ -28,8 +28,9 @@ const Mainside = () => {
             <img className='absolute left-[770px] top-[1140px]' src="/assets/DesktopAim.svg" alt="DesktopAimImg" />
             <img className='absolute left-[689px] top-[1310px]' src="/assets/RedRect.svg" alt="DesktopRedRectImg" />
             <img className='absolute left-[510px] top-[1350px]' src="/assets/DesktopDeploy.svg" alt="DesktopRedDeploymentImg" />
-            <img className='absolute right-0 top-[1460px] -z-10 w-[900px]' src="/assets/MainRed.svg" alt="DesktopLastRedRect" />
+            <img className='absolute left-[700px] top-[1460px] -z-10 w-[900px]' src="/assets/MainRed.svg" alt="DesktopLastRedRect" />
         </div>
+
 
     <div className="mt-[130px] ml-[15px] grid">
 
@@ -111,6 +112,7 @@ const Mainside = () => {
                     </div>
         </div>
 
+        
         <div className='flex flex-col justify-center items-center grid5'>
             <div className='flex flex-col items-center'>
             <img className='md:hidden' src="/assets/Design & code.svg" alt="TestingImg" />
