@@ -45,3 +45,18 @@
 p{
     word-spacing: 7px;
 }
+
+@media (width >= 1280px){
+    .grid{
+        display: grid;
+        grid-template-areas:'mesame meore'
+                            'mesame pirveli'
+                            'mesame pirveli'
+                            'mexute pirveli'
+                            'mexute pirveli'
+                            'mexute meotxe'
+                            'meshvide meotxe'
+                            'meshvide meeqvse';
+                            gap: 90px;
+    }
+}
