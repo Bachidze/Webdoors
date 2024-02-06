@@ -9,7 +9,7 @@ const Header = () => {
           <a href="#">About</a>
         </div>
             <img  className="xl:hidden " src="/assets/User.svg" alt="HeaderUserImg" />
-            <img className="md:w-[34px] xl:w-[39px] xl:relative right-[70px]" src="/assets/MiddleIcon.svg" alt="MainIconMiddle" />
+            <img className="md:w-[34px] xl:w-[39px] xl:relative right-[50px]" src="/assets/MiddleIcon.svg" alt="MainIconMiddle" />
             <div className="flex gap-5">
             <img className="hidden xl:flex" src="/assets/ManImg.svg" alt="" />
             <img className="xl:mr-[180px]" src="/assets/HeaderRight.svg" alt="HeaderRightIcon" />

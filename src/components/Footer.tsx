@@ -113,11 +113,11 @@ const Footer = () => {
             </div>
     </div>
 
-    <div className='hidden xl:flex'>
-        <div className='relative left-[70px] top-[25px] -z-10'>
+    <div className='hidden xl:flex justify-center items-center'>
+        <div className='relative left-[120px] top-[25px] -z-10'>
             <img src="/assets/NY.svg" alt="NY" />
         </div>
-        <div className='hidden xl:block relative right-[120px] top-[100px]'>
+        <div className='hidden xl:block relative right-[30px]'>
             <h2 className='text-[26px] font-bold text-[white] text-right mb-[25px]'>Lorem ipsum dolor amet</h2>
             <h6 className='text-[18px] font-bold text-[white] text-right mb-[25px]'>11 November 2021</h6>
             <p className='w-[600px] font-normal text-[16px] text-right mb-[25px] text-[white]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -128,7 +128,7 @@ const Footer = () => {
                    pretium rhoncus id.
             </p>
 
-            <div className='hidden xl:flex justify-end'>
+            <div className='hidden xl:flex  justify-end'>
                 <div className='flex w-[227px] h-[65px] bg-[#272431] rounded-[15px] justify-center items-center gap-[10px] text-[white]'>
                     <div className='borderi'></div>
                     <h2>READ ME</h2>
@@ -137,8 +137,8 @@ const Footer = () => {
         </div>
     </div>
 
-    <div className='hidden xl:flex'>
-        <div className='relative left-[120px] top-[100px]'>
+    <div className='hidden xl:flex justify-center'>
+        <div className='relative left-[170px] top-[100px]'>
             <h2 className='text-[26px] font-bold text-[white] text-left mb-[25px]'>Lorem ipsum dolor amet</h2>
             <h6 className='text-[18px] font-bold text-[white] text-left mb-[25px]'>11 November 2021</h6>
             <p className='w-[600px] font-normal text-[16px] text-left mb-[25px] text-[white]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -156,12 +156,12 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='relative right-[70px] top-[25px] -z-10'>
+        <div className='relative  top-[25px] -z-10'>
             <img src="/assets/NY.svg" alt="NY" />
         </div>
     </div>
 
-    <div className='hidden xl:flex xl:flex-col xl:justify-center items-center xl:gap-[50px] xl:mt-[100px] xl:mb-[100px]'>
+    <div className='hidden xl:flex xl:flex-col xl:justify-center items-center xl:gap-[50px] xl:mt-[100px] xl:mb-[100px] xl:relative xl:left-[80px]'>
         <div className='flex gap-[65px]'>
             <img src="/assets/Rectangle 46.svg" alt="SS" />
             <img src="/assets/Rectangle 9.svg" alt="Sham" />
