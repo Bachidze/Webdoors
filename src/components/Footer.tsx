@@ -117,7 +117,7 @@ const Footer = () => {
         <div className='relative left-[80px] top-[25px] -z-10'>
             <img src="/assets/NY.svg" alt="NY" />
         </div>
-        <div className='hidden xl:block relative right-[140px]'>
+        <div className='hidden xl:block relative right-[125px]'>
             <h2 className='text-[26px] font-bold text-[white] text-right mb-[25px]'>Lorem ipsum dolor amet</h2>
             <h6 className='text-[18px] font-bold text-[white] text-right mb-[25px]'>11 November 2021</h6>
             <p className='w-[600px] font-normal text-[16px] text-right mb-[25px] text-[white]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
