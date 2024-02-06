@@ -190,7 +190,7 @@ const Footer = () => {
         </div>
         <div>
             <div className='hidden xl:flex gap-[30px]'>
-            <img className='md:w-[70px]' src="/assets/BE.svg" alt="BE" />
+                <img className='md:w-[70px]' src="/assets/BE.svg" alt="BE" />
                 <img className='md:w-[70px]' src="/assets/Instagram.svg" alt="Insta" />
                 <img className='md:w-[70px]' src="/assets/twitter (1).svg" alt="Twitter" />
                 <img className='md:w-[70px]' src="/assets/Llinkd.svg" alt="Linkdein" />
