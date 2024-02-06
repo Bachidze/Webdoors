@@ -16,7 +16,7 @@ const Mainside = () => {
         </div>
         
         
-        <div className=' hidden xl:flex relative xl:left-[50px]'>
+        <div className=' hidden xl:flex relative xl:left-[70px] xl:max-w-[1440px]'>
             <img className='absolute left-[-150px] top-[400px]' src="/assets/SkyRectangle.svg" alt="SkyRectimg" />
             <img className='absolute left-[770px] top-[300px]' src="/assets/BrainDesktop.svg" alt="DesktopBrainimg" />
             <img className='absolute left-[692px] top-[470px]' src="/assets/DaxriliSky.svg" alt="DaxriliSkyRectimg" />
@@ -29,7 +29,7 @@ const Mainside = () => {
             <img className='absolute left-[770px] top-[1140px]' src="/assets/DesktopAim.svg" alt="DesktopAimImg" />
             <img className='absolute left-[689px] top-[1310px]' src="/assets/RedRect.svg" alt="DesktopRedRectImg" />
             <img className='absolute left-[510px] top-[1350px]' src="/assets/DesktopDeploy.svg" alt="DesktopRedDeploymentImg" />
-            <img className='absolute right-0 top-[1460px] -z-10 w-[900px]' src="/assets/MainRed.svg" alt="DesktopLastRedRect" />
+            <img className='absolute left-[580px] top-[1460px] -z-10 w-[900px]' src="/assets/MainRed.svg" alt="DesktopLastRedRect" />
         </div>
 
 
