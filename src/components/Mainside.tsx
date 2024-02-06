@@ -16,7 +16,7 @@ const Mainside = () => {
         </div>
         
         
-        <div className=' hidden xl:flex relative xl:left-[70px] xl:max-w-[1440px]'>
+        <div className=' hidden xl:flex relative  xl:max-w-[1440px]'>
             <img className='absolute left-[-150px] top-[400px]' src="/assets/SkyRectangle.svg" alt="SkyRectimg" />
             <img className='absolute left-[770px] top-[300px]' src="/assets/BrainDesktop.svg" alt="DesktopBrainimg" />
             <img className='absolute left-[692px] top-[470px]' src="/assets/DaxriliSky.svg" alt="DaxriliSkyRectimg" />
