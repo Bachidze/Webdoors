@@ -10,6 +10,19 @@
     height: 6px;
     border-radius: 50%;
 }
+.border1{
+    border: 1px solid white;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.border4{
+    border: 1px solid #6561EA;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
 
 .border2{
     border: 1px solid white;
