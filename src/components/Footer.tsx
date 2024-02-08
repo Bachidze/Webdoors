@@ -64,7 +64,7 @@ const Footer = () => {
                   <img src="/assets/Arrow.svg" alt="ArrowImg" />
                 </div>
                 <div>
-                  <img  src="/assets/Self.svg" alt="Self" />
+                  <img  src="/assets/ourPhoto2.svg" alt="Self" />
                 </div>
             </div>
 
@@ -76,7 +76,7 @@ const Footer = () => {
                   <img src="/assets/Arrow.svg" alt="ArrowImg" />
                 </div>
                 <div>
-                  <img  src="/assets/Self.svg" alt="Self" />
+                  <img  src="/assets/ourPhoto3.svg" alt="Self" />
                 </div>
             </div>
                 <div className='border w-[1180px] mt-4'></div>
