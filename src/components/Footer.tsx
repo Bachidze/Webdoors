@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
 
         <div className='hidden xl:flex flex-col  items-center mt-[170px]'>
-          <div className='flex self-center relative right-[36%] text-[24px] text-[#D0E0EF] mb-3'><h4>Projects</h4></div>
+          <div className='flex self-start ml-[170px] text-[24px] text-[#D0E0EF] mb-3'><h4>Projects</h4></div>
             <div className='flex items-center'>
               <div className='border1 w-[10px] h-[10px] border-2 '></div>
               <div className='border2 w-[1170px] h-[2px] bg-white '></div>
