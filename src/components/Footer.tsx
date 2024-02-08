@@ -157,7 +157,7 @@ const Footer = () => {
         <div className='hidden xl:flex justify-between ml-[240px] mt-[150px]'>
           <div className='flex flex-col gap-[40px]'>
             <img className='md:w-[252px]' src="/assets/Webdoors.svg" alt="WebDoors" />
-            <div className='flex'>
+            <div className='flex gap-5'>
               <img src="/assets/Compliant.svg" alt="Complant" />
               <img src="/assets/EBA.svg" alt="EBA" />
             </div>
