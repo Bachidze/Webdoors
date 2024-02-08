@@ -24,6 +24,10 @@
     height: 6px;
 }
 
+.sp{
+    word-spacing: 10px;
+}
+
 .mainGrid{
     display: grid;
     justify-content: center;

@@ -12,6 +12,72 @@ const Footer = () => {
   const copyrightYearRange = currentYear > startYear ? `${startYear}-${currentYear}` : startYear;
 
   return (
+    <>
+    <div className='hidden xl:flex flex-col justify-center items-center mt-[250px]  grid2'>
+            <div className='flex gap-1 md:gap-[50px] md:mt-[10px] md:mb-[20px] items-center'>
+                <h2 className='font-normal text-[14px] leading-[17px] text-white md:text-[18px] xl:text-[36px] '>Our life’s work</h2>
+                <img className='md:w-[15px] xl:w-[30px]' src="/assets/Services.svg" alt="ServicesMobile" />
+            </div>
+            <div className='flex items-center'>
+                <div className='border1 md:w-[11px] md:h-[11px] xl:w-[15px] xl:h-[15px] '></div>
+                <div className='border2 md:w-[126px] xl:w-[333px]'></div>
+                <div className='border3 md:h-[11px] xl:h-[15px]'></div>
+            </div>
+            <div className='text-center'>
+              <p className='w-[824px] text-[18px] text-white mt-[80px]'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, condimentum scelerisque viverra magna 
+                  sollicitudin vestibulum. Augue augue elementum massa vestibulum, vitae cras tempor, vulputate risus. 
+                  Facilisis tristique lorem cras porttitor ultrices cursus tristique. Ipsum lectus pretium rhoncus id.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, condimentum scelerisque viverra magna
+                   sollicitudin vestibulum. Augue augue elementum massa vestibulum, vitae cras tempor, vulputate risus. 
+                   Facilisis tristique lorem cras porttitor ultrices cursus tristique. Ipsum lectus pretium rhoncus id.
+               </p>
+            </div>
+        </div>
+
+        <div className='hidden xl:flex flex-col  items-center mt-[170px]'>
+          <div className='flex self-center relative right-[36%] text-[24px] text-[#D0E0EF] mb-3'><h4>Projects</h4></div>
+            <div className='flex items-center'>
+              <div className='border1 w-[10px] h-[10px] border-2 '></div>
+              <div className='border2 w-[1170px] h-[2px] bg-white '></div>
+            </div>
+
+            <div className='flex gap-[70px] pt-6'>
+                <div>
+                  <h1 className='text-[32px] text-[white] font-bold mb-4'>WeBsite Name</h1>
+                  <p className='text-[26px] w-[531px] mb-[110px] text-white sp'>Fitudin vestibulum. Augue augue elementum massa vestibulum, vitae cras tempor,</p>
+                  <img src="/assets/Arrow.svg" alt="ArrowImg" />
+                </div>
+                <div>
+                  <img  src="/assets/Self.svg" alt="Self" />
+                </div>
+            </div>
+
+                <div className='border w-[1180px] mt-4'></div>
+            <div className='flex gap-[70px] pt-6'>
+                <div>
+                  <h1 className='text-[32px] text-[white] font-bold mb-4'>WeBsite Name</h1>
+                  <p className='text-[26px] w-[531px] mb-[110px] text-white sp'>vulputate risus. Facilisis tristique lorem cras porttitor ultrices cursus tristique. Ipsum lectus pretium rhoncu</p>
+                  <img src="/assets/Arrow.svg" alt="ArrowImg" />
+                </div>
+                <div>
+                  <img  src="/assets/Self.svg" alt="Self" />
+                </div>
+            </div>
+
+                <div className='border w-[1180px] mt-4'></div>
+            <div className='flex gap-[70px] pt-6'>
+                <div>
+                  <h1 className='text-[32px] text-[white] font-bold mb-4'>WeBsite Name</h1>
+                  <p className='text-[26px] w-[531px] mb-[110px] text-white sp'>Fitudin vestibulum. Augue augue elementum massa vestibulum, vitae cras tempor, vulputate risus.</p>
+                  <img src="/assets/Arrow.svg" alt="ArrowImg" />
+                </div>
+                <div>
+                  <img  src="/assets/Self.svg" alt="Self" />
+                </div>
+            </div>
+                <div className='border w-[1180px] mt-4'></div>
+        </div>
+
     <div className='flex justify-center items-center flex-col mt-[150px] xl:mt-[350px]'>
       <div className='mb-[30px]'>
         <img className='md:w-[252px]' src="/assets/Webdoors.svg" alt="WebDoors" />
@@ -44,6 +110,7 @@ const Footer = () => {
         </div>
       </div>
   
+    </>
   );
 }
 
