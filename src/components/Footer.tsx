@@ -12,7 +12,7 @@ const Footer = () => {
   const copyrightYearRange = currentYear > startYear ? `${startYear}-${currentYear}` : startYear;
 
   return (
-    <div className='flex justify-center items-center flex-col mt-[350px]'>
+    <div className='flex justify-center items-center flex-col mt-[150px] xl:mt-[350px]'>
       <div className='mb-[30px]'>
         <img className='md:w-[252px]' src="/assets/Webdoors.svg" alt="WebDoors" />
       </div>
