@@ -136,7 +136,7 @@ const Footer = () => {
 
 
         <div className='hidden xl:flex flex-col items-center mt-[80px]'>
-          <div className='flex gap-[50px]'>
+          <div className='flex gap-[60px]'>
             <img src="/assets/Rectangle 46.svg" alt="pirveliSponsor" />
             <img src="/assets/Rectangle 9.svg" alt="Sharm" />
             <img src="/assets/Rectangle 14.svg" alt="Saqartvelo" />
@@ -144,7 +144,7 @@ const Footer = () => {
             <img src="/assets/image 3.svg" alt="Create" />
             <img src="/assets/Rectangle 19.svg" alt="Kikala" />
           </div>
-          <div className='flex gap-[60px] mt-[50px]'>
+          <div className='flex gap-[70px] mt-[50px]'>
             <img src="/assets/image 6.svg" alt="NBR" />
             <img src="/assets/Rectangle 8.svg" alt="Pistol" />
             <img src="/assets/image 4.svg" alt="Qartuli" />
@@ -167,7 +167,7 @@ const Footer = () => {
           </div>
 
           <div>
-              <div className='flex mr-[140px] gap-[35px] '>
+              <div className='flex mr-[140px] gap-[55px] '>
           
                   <img className='md:w-[45px]' src="/assets/BE.svg" alt="BE" />
                   <img className='md:w-[45px]' src="/assets/Instagram.svg" alt="Insta" />
