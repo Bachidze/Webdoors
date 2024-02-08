@@ -1,8 +1,12 @@
 
 const Header = () => {
   return (
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem expedita aliquam temporibus perferendis corrupti pariatur sequi eveniet quod, sint fugit!
+    <div className="m-[15px]">
+      <div className="flex justify-between">
+        <img src="/assets/User.svg" alt="UserImg" />
+        <img src="/assets/MiddleIcon.svg" alt="MiddleImg" />
+        <img src="/assets/HeaderRight.svg" alt="LEftImg" />
+      </div>
     </div>
   )
 }

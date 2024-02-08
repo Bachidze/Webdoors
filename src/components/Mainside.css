@@ -1,0 +1,60 @@
+.space{
+    word-spacing: 4px;
+}
+.space2{
+    word-spacing: 12px;
+}
+.border1{
+    border: 1px solid white;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.border2{
+    border: 1px solid white;
+    width: 67.3px;
+}
+
+.border3{
+    border: 1px solid white;
+    background: white;
+    width: 1px;
+    height: 6px;
+}
+
+.mainGrid{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 'pirveli serv'
+                         'pirveli serv'
+                         'pirveli meore'
+                         'mesame meore'
+                         'mesame meotxe'
+                         'mexute meotxe'
+                         'mexute meeqvse'
+                         'mexute meeqvse';
+                         row-gap: 15px;
+}
+
+.grid1{
+    grid-area: pirveli;
+}
+.grid2{
+    grid-area: serv;
+}
+.grid3{
+    grid-area: meore;
+}
+.grid4{
+    grid-area: mesame;
+}
+.grid5{
+    grid-area: meotxe;
+}
+.grid6{
+    grid-area: mexute;
+}
+.grid7{
+    grid-area: meeqvse;
+}
