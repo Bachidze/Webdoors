@@ -167,7 +167,7 @@ const Footer = () => {
           </div>
 
           <div>
-              <div className='flex mr-[140px] gap-[55px] '>
+              <div className='flex mr-[140px] gap-[35px] '>
           
                   <img className='md:w-[45px]' src="/assets/BE.svg" alt="BE" />
                   <img className='md:w-[45px]' src="/assets/Instagram.svg" alt="Insta" />
