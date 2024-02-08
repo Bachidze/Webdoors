@@ -14,6 +14,7 @@
 .border2{
     border: 1px solid white;
     width: 67.3px;
+    background: white;
 }
 
 .border3{
@@ -57,4 +58,24 @@
 }
 .grid7{
     grid-area: meeqvse;
+}
+
+.gridt{
+    display: grid;
+    grid-template-areas: 'img txt'
+                        'img img';
+}
+
+.grideimg{
+    grid-area: img;
+}
+
+.gridtxt{
+    grid: txt;
+}
+
+@media (width >=768px){
+    .space{
+        word-spacing: 15px;
+    }
 }
