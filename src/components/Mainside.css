@@ -60,22 +60,55 @@
     grid-area: meeqvse;
 }
 
-.gridt{
-    display: grid;
-    grid-template-areas: 'img txt'
-                        'img img';
-}
-
-.grideimg{
-    grid-area: img;
-}
-
-.gridtxt{
-    grid: txt;
-}
 
 @media (width >=768px){
     .space{
         word-spacing: 15px;
     }
 }
+
+@media (min-width: 1280px) {
+    .mainGrid {
+      display: grid;
+      justify-content: center;
+      grid-template-areas:  'serv pirveli'
+                            'serv pirveli'
+                            'meore pirveli'
+                            'meore mesame'
+                            'meotxe mesame'
+                            'meotxe mexute'
+                            'meeqvse mexute'
+                            'meeqvse mexute';
+      row-gap: 150px;
+      column-gap: 450px;
+    }
+
+    .grid1{
+        position: relative; 
+        bottom: 35%;
+        left: 5%;
+    }
+    .grid3{
+        position: relative;
+        bottom: 110%;
+    }
+    .grid4{
+        position: relative;
+        bottom: 55%;
+        left: 5%;
+    }
+    .grid5{
+        position: relative;
+        bottom: 20%;
+    }
+    .grid6{
+        position: relative;
+        top: 17%;
+        left: 5%;
+    }
+    .grid7{
+        position: relative;
+        top: 50%;
+    }
+  }
+  
