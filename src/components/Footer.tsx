@@ -41,45 +41,45 @@ const Footer = () => {
                </div>
                 <div className='flex items-center'>
                   <div className='border1 w-[10px] h-[10px] border-2 '></div>
-                  <div className='border2 w-[1170px] h-[2px] bg-white '></div>
+                  <div className='border2 w-[1270px] h-[2px] bg-white '></div>
                </div>
             </div>
 
-            <div className='flex gap-[70px] pt-6'>
+            <div className='flex gap-[150px] pt-6'>
                 <div>
                   <h1 className='text-[32px] text-[white] font-bold mb-4'>WeBsite Name</h1>
                   <p className='text-[26px] w-[531px] mb-[110px] text-white sp'>Fitudin vestibulum. Augue augue elementum massa vestibulum, vitae cras tempor,</p>
                   <img src="/assets/Arrow.svg" alt="ArrowImg" />
                 </div>
                 <div>
-                  <img  src="/assets/Self.svg" alt="Self" />
+                  <img className='w-[576px] h-[326px]'  src="/assets/Self.svg" alt="Self" />
                 </div>
             </div>
 
-                <div className='border w-[1180px] mt-4'></div>
-            <div className='flex gap-[70px] pt-6'>
+                <div className='border w-[1270px] mt-4'></div>
+            <div className='flex gap-[150px] pt-6'>
                 <div>
                   <h1 className='text-[32px] text-[white] font-bold mb-4'>WeBsite Name</h1>
                   <p className='text-[26px] w-[531px] mb-[110px] text-white sp'>vulputate risus. Facilisis tristique lorem cras porttitor ultrices cursus tristique. Ipsum lectus pretium rhoncu</p>
                   <img src="/assets/Arrow.svg" alt="ArrowImg" />
                 </div>
                 <div>
-                  <img  src="/assets/ourPhoto2.svg" alt="Self" />
+                  <img className='w-[576px] h-[326px]'  src="/assets/ourPhoto2.svg" alt="Self" />
                 </div>
             </div>
 
-                <div className='border w-[1180px] mt-4'></div>
-            <div className='flex gap-[70px] pt-6'>
+                <div className='border w-[1270px] mt-4'></div>
+            <div className='flex gap-[150px] pt-6'>
                 <div>
                   <h1 className='text-[32px] text-[white] font-bold mb-4'>WeBsite Name</h1>
                   <p className='text-[26px] w-[531px] mb-[110px] text-white sp'>Fitudin vestibulum. Augue augue elementum massa vestibulum, vitae cras tempor, vulputate risus.</p>
                   <img src="/assets/Arrow.svg" alt="ArrowImg" />
                 </div>
                 <div>
-                  <img  src="/assets/ourPhoto3.svg" alt="Self" />
+                  <img className='w-[576px] h-[326px]'  src="/assets/ourPhoto3.svg" alt="Self" />
                 </div>
             </div>
-                <div className='border w-[1180px] mt-4'></div>
+                <div className='border w-[1270px] mt-4'></div>
         </div>
 
         <div className='hidden xl:flex  justify-center items-center mt-[170px] gap-9 '>
@@ -96,10 +96,10 @@ const Footer = () => {
         
 
         <div className='hidden xl:flex justify-center items-center mt-[50px]'>
-          <div className='relative left-[100px]'>
-            <img  src="/assets/NY.svg" alt="NY" />
+          <div className='relative left-[50px]'>
+            <img className='w-[836px] h-[467px]'  src="/assets/NY.svg" alt="NY" />
           </div>
-          <div className='mr-[50px] relative right-[100px]'>
+          <div className=' relative right-[130px]'>
             <h1 className='text-[26px] text-white font-bold mb-[20px] text-right'>Lorem ipsum dolor amet</h1>
             <h4 className='text-[18px] font-bold text-white mb-[20px] text-right'>11 November 2021</h4>
             <p className=' w-[688px] mb-[20px] text-right text-[18px] text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, condimentum scelerisque viverra magna sollicitudin vestibulum.
@@ -115,7 +115,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='hidden xl:flex justify-center items-center mt-[50px]'>
-          <div className='mr-[50px] relative left-[130px]'>
+          <div className=' relative left-[120px]'>
             <h1 className='text-[26px] text-white font-bold mb-[20px] text-left'>Test name of News</h1>
             <h4 className='text-[18px] font-bold text-white mb-[20px] text-left'>11 November 2021</h4>
             <p className=' w-[688px] mb-[20px] text-left text-[18px] text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, condimentum scelerisque viverra magna sollicitudin vestibulum.
@@ -129,14 +129,14 @@ const Footer = () => {
                 </div>
               </div>
           </div>
-          <div className='relative right-[100px]'>
-            <img className='relative -z-20' src="/assets/Architect.svg" alt="NY" />
+          <div className='relative right-[50px]'>
+            <img className='w-[836px] h-[467px] relative -z-20' src="/assets/Architect.svg" alt="NY" />
           </div>
         </div>
 
 
         <div className='hidden xl:flex flex-col items-center mt-[80px]'>
-          <div className='flex gap-[80px]'>
+          <div className='flex gap-[62px]'>
             <img src="/assets/Rectangle 46.svg" alt="pirveliSponsor" />
             <img src="/assets/Rectangle 9.svg" alt="Sharm" />
             <img src="/assets/Rectangle 14.svg" alt="Saqartvelo" />
@@ -144,7 +144,7 @@ const Footer = () => {
             <img src="/assets/image 3.svg" alt="Create" />
             <img src="/assets/Rectangle 19.svg" alt="Kikala" />
           </div>
-          <div className='flex gap-[90px] mt-[50px]'>
+          <div className='flex gap-[80px] mt-[50px]'>
             <img src="/assets/image 6.svg" alt="NBR" />
             <img src="/assets/Rectangle 8.svg" alt="Pistol" />
             <img src="/assets/image 4.svg" alt="Qartuli" />
@@ -154,7 +154,7 @@ const Footer = () => {
         </div>
 
 
-        <div className='hidden xl:flex justify-between ml-[240px] mt-[150px]'>
+        <div className='hidden xl:flex justify-center gap-[365px]  mt-[150px]'>
           <div className='flex flex-col gap-[40px]'>
             <img className='md:w-[252px]' src="/assets/Webdoors.svg" alt="WebDoors" />
             <div className='flex gap-5'>
@@ -167,7 +167,7 @@ const Footer = () => {
           </div>
 
           <div>
-              <div className='flex mr-[240px] gap-[35px]'>
+              <div className='flex gap-[35px]'>
           
                   <img className='md:w-[45px]' src="/assets/BE.svg" alt="BE" />
                   <img className='md:w-[45px]' src="/assets/Instagram.svg" alt="Insta" />

@@ -10,7 +10,7 @@ const Header = () => {
       </div>
     </div>
 
-    <div className="hidden xl:flex items-center justify-between xl:mt-[77px] xl:ml-[240px] xl:mr-[286px]">
+    <div className="hidden xl:flex items-center justify-between xl:mt-[77px] xl:ml-[140px] xl:mr-[150px]">
       <div className="flex gap-9 text-[20px] text-white font-bold">
         <a href="#">Services</a>
         <a href="#">Projects</a>
