@@ -1,22 +1,66 @@
+import { motion } from 'motion/react'
 import './Mainside.css'
 
 const Mainside = () => {
   return (
     <>
 
-    <div className='hidden xl:flex flex-col items-center mt-[180px] gap-6'>
-      <h3 className='text-[20px] flex gap-2 text-white'>INTRODUCING<span className='text-[#BFB0FF]'>WEBDOORS</span></h3>
-      <h1 className='text-[41.5px] font-bold text-white'>DIGITAL <span className='text-[#BFB0FF]'>EXPERIENCE</span>, RE-IMAGINED</h1>
-      <p className='text-[#C1D7EC] text-[18px]'>A full-service digital agency with capabilities across web design and development</p>
-      <div className='w-[313px] h-[56px] bg-[#0500FF] flex items-center justify-center gap-9 mt-[25px] rounded-[8px]'>
+    <motion.div
+      className='hidden xl:flex flex-col items-center mt-[180px] gap-6'
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.7 }}
+    >
+      <motion.h3
+        className='text-[20px] flex gap-2 text-white'
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        INTRODUCING<span className='text-[#BFB0FF]'>WEBDOORS</span>
+      </motion.h3>
+      <motion.h1
+        className='text-[41.5px] font-bold text-white'
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3 }}
+      >
+        DIGITAL <span className='text-[#BFB0FF]'>EXPERIENCE</span>, RE-IMAGINED
+      </motion.h1>
+      <motion.p
+        className='text-[#C1D7EC] text-[18px]'
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.4 }}
+      >
+        A full-service digital agency with capabilities across web design and development
+      </motion.p>
+      <motion.div
+        className='w-[313px] h-[56px] bg-[#0500FF] flex items-center justify-center gap-9 mt-[25px] rounded-[8px] cursor-pointer'
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5 }}
+        whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(5, 0, 255, 0.5)' }}
+        whileTap={{ scale: 0.98 }}
+      >
         <h2 className='text-[18px] font-bold text-white'>NEED A WEBSITE?</h2>
         <img src="/assets/Arrow.svg" alt="Arrow" />
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
 
-    <div className='hidden xl:flex justify-center mt-[150px] mb-[150px]'>
-      <img src="/assets/Cube.svg" alt="Cube" />
-    </div>
+    <motion.div
+      className='hidden xl:flex justify-center mt-[150px] mb-[150px]'
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.8, delay: 0.6 }}
+    >
+      <motion.img
+        src="/assets/Cube.svg"
+        alt="Cube"
+        animate={{ rotate: 360 }}
+        transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
+      />
+    </motion.div>
 
     <div className='hidden xl:flex flex-col justify-center items-center mt-[50px]  grid2'>
             <div className='flex items-center'>
@@ -66,7 +110,13 @@ const Mainside = () => {
     <div className='ml-[15px] mr-[15px] mt-[120px] text-center mainGrid md:text-[18px]'>
 
 
-        <div className='flex flex-col items-center grid1'>
+        <motion.div
+          className='flex flex-col items-center grid1'
+          initial={{ opacity: 0, x: -30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: '-50px' }}
+          transition={{ duration: 0.5 }}
+        >
           <img className='md:hidden' src="/assets/BrainImg2.svg" alt="MobileBraInimg" />
           <img className='hidden md:flex xl:hidden' src="/assets/BrainImg.svg" alt="BrainTablet" />
           <h3 className='font-bold text-white leading-[17.5px] mb-[10px] md:mb-[20px] xl:self-start xl:relative '>
@@ -78,7 +128,7 @@ const Mainside = () => {
             audiences to refine your idea and create a strong app
             foundation
           </p>
-        </div>
+        </motion.div>
 
         <div className='flex flex-col items-center relative top-[20px] xl:hidden  grid2'>
             <div className='flex items-center'>
@@ -92,7 +142,13 @@ const Mainside = () => {
             </div>
         </div>
 
-        <div className='flex flex-col items-center grid3'>
+        <motion.div
+          className='flex flex-col items-center grid3'
+          initial={{ opacity: 0, x: 30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: '-50px' }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+        >
           <img className='md:hidden' src="/assets/Wirefarming.svg" alt="WireFramingMobile" />
           <img className='hidden md:flex xl:hidden' src="/assets/Tablet22.svg" alt="Tablet" />
           <h3 className='font-bold text-white leading-[17.5px] mb-[10px] md:mb-[20px] xl:self-start xl:relative '>
@@ -102,9 +158,15 @@ const Mainside = () => {
             visualize the client’s concept and ideas that clearly
             define the user journey
           </p>
-        </div>
+        </motion.div>
 
-        <div className='flex flex-col items-center grid4'>
+        <motion.div
+          className='flex flex-col items-center grid4'
+          initial={{ opacity: 0, x: -30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: '-50px' }}
+          transition={{ duration: 0.5, delay: 0.15 }}
+        >
           <img className='md:hidden' src="/assets/Prototyping.svg" alt="PropTypingMobile" />
           <img className='hidden md:flex xl:hidden' src="/assets/Tablet33.svg" alt="PropTypingTablet" />
           <h3 className='font-bold text-white leading-[17.5px] mb-[10px] md:mb-[20px] xl:self-start xl:relative '>
@@ -114,10 +176,16 @@ const Mainside = () => {
             techniques that give you an earlier heads up on the
             look and feel, during the development cycle.
           </p>
-        </div>
+        </motion.div>
 
 
-        <div className='flex flex-col items-center grid5'>
+        <motion.div
+          className='flex flex-col items-center grid5'
+          initial={{ opacity: 0, x: 30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: '-50px' }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
           <img className='md:hidden' src="/assets/BrainImg2.svg" alt="Design & code Mobile" />
           <img className='hidden md:flex xl:hidden' src="/assets/Tablet44.svg" alt="Design & code Tablet" />
           <h3 className='font-bold text-white leading-[17.5px] mb-[10px] md:mb-[20px] xl:self-start xl:relative '>
@@ -128,10 +196,16 @@ const Mainside = () => {
             capabilities deliver sleek and responsive apps to
             give you a competitive edge.
           </p>
-        </div>
+        </motion.div>
 
 
-        <div className='flex flex-col items-center grid6'>
+        <motion.div
+          className='flex flex-col items-center grid6'
+          initial={{ opacity: 0, x: -30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: '-50px' }}
+          transition={{ duration: 0.5, delay: 0.25 }}
+        >
           <img className='md:hidden' src="/assets/Testing & QA.svg" alt="Testing & QA mobile" />
           <img className='hidden md:flex xl:hidden' src="/assets/AIM.svg" alt="Testing & QA mobile" />
           <h3 className='font-bold text-white leading-[17.5px] mb-[10px] md:mb-[20px] xl:self-start xl:relative '>
@@ -141,10 +215,16 @@ const Mainside = () => {
             Industry standards to evaluate its scalability,
             responsiveness, and stability.
           </p>
-        </div>
+        </motion.div>
 
 
-        <div className='flex flex-col items-center grid7'>
+        <motion.div
+          className='flex flex-col items-center grid7'
+          initial={{ opacity: 0, x: 30 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true, margin: '-50px' }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+        >
           <img className='md:hidden' src="/assets/Deployment.svg" alt="DeploymentMobile" />
           <img className='hidden md:flex xl:hidden' src="/assets/Tablet66.svg" alt="DeploymentTablet" />
           <h3 className='font-bold text-white leading-[17.5px] mb-[10px] md:mb-[20px] xl:self-start xl:relative '>
@@ -153,7 +233,7 @@ const Mainside = () => {
             Once the app fulfills our client’s requirements and expectations,
              we deploy the app according to the launch plan.
           </p>
-        </div>
+        </motion.div>
 
 
     </div>
